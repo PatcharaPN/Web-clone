@@ -1,0 +1,61 @@
+* {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+html {
+  background-color: black;
+}
+.container {
+  margin-left: 5%;
+  display: flex;
+  justify-content: start;
+}
+.container > nav > img {
+  margin-right: 20px;
+  width: 10%;
+  display: inline-block;
+}
+nav > a {
+  color: white;
+  text-decoration: none;
+}
+
+.container > nav {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+}
+nav nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+i {
+  color: white;
+}
+.user-nav > a {
+  color: white;
+  text-decoration: none;
+}
+.user-profile {
+  width: 15%;
+}
+.user-nav {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+h2 {
+  color: white;
+}
+.content-anime {
+  flex-direction: column;
+  position: relative;
+  top: px;
+  margin-left: 5%;
+}
+.content-movie-anime {
+  display: inline-flex;
+  gap: 10px;
+  flex-direction: row;
+}
